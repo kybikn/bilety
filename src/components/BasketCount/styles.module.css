@@ -1,0 +1,14 @@
+.basketCount {
+    background-color: #FF5500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 28px;
+    height: 28px;
+    border-radius: var(--border-radius);
+    font-size: 14px;
+    font-family: var(--font-mono);
+    font-weight: 600;
+
+}

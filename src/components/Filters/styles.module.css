@@ -1,0 +1,209 @@
+.filters {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: var(--border-radius);
+    gap: 20px;
+    width: 100%;
+     width: 388px;
+    padding: 24px;
+    margin-top: 90px;
+    height: 100%;
+    position: fixed;
+    /* position: sticky; */
+    top: 0;
+    left: 0;
+    
+    /* width: 100%;  */
+    /* padding: 16px; */
+    /* margin: 24px; */
+    
+    /* top: 0; */
+    /* margin-bottom: 0; */
+    /* width: 408px; */
+    /* width: 360px; */
+}
+
+.title {
+    color: #1B1F23;
+    padding: 0;
+    background-color: var(--background-primary);
+    border-radius: 8px;
+    font-size: 16;
+    font-weight: 400;
+}
+
+.accordeon {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+    /* width: 360px; */
+    /* width: 100%; */
+    /* padding: 24px; */
+}
+
+.menuGroup {
+    /* box-shadow: 0.5px 1px 2px #999FA6; */
+    position: relative;
+    
+        /* width: 360px; */
+    /* width: 100%; */
+    /* display: flex; */
+    background-color: var(--background-primary);
+    gap: 32px;
+    /* padding: 24px; */
+    /* justify-content: space-between; */
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    color: var(--text-primary);
+    font-size: 14px;
+    line-height: 20px;
+    /* position: relative; */
+}
+
+.input {
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-default);
+    background: var(--background-primary);
+    color: var(--text-tertiary, #999FA6);
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    height: 40px;
+    padding: 10px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--background-primary, #FFF);
+    width: 100%;
+    cursor: pointer;
+    /* align-self: stretch; */
+    /* max-width: 360px; */
+}
+
+.input:focus {
+    outline-color:#f00000;
+    }
+
+.inputIcon {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    fill: #333333;
+    user-select: none;
+        /* color: #333333; */
+        /* right: 60px; */
+}
+.selectAnswer{
+    cursor: pointer;
+    background: var(--background-primary);
+       text-align: left;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 20px;
+       color: #1B1F23;
+       padding: 12px;
+       /* max-width: 360px;
+      width: 100%; */
+      /* max-width: 360px; */
+      width: 340px;
+      /* gap: 15px; */
+      /* position: absolute;
+      z-index: 3; */
+      /* height: 36px; */
+      /* padding: 10px 80px; */
+      /* border: 1px solid red; */
+   }
+/* ------------------- */
+.searchForm {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    gap: 16px;
+}
+/* .faq {
+    padding: 24px 32px;
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+} */
+/* .question {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+/* .titleBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+} */
+/* .titleTitle {
+    font-size: 24px;
+    color: #1B1F23;
+} */
+/* .textBox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+} */
+/* .answer {
+    color: #1B1F23;
+    font-size: 16px;
+} */
+/* .select {
+    display: block;
+  } */
+  /* .selectList { */
+    /* display: block; */
+    /* width: 344px; */
+    /* width: 360px;
+    height: 40px;
+    padding: 4px;
+    background: none;
+    box-sizing: border-box;
+    border: 1px solid red; */
+    /* border: none; */
+    /* border-radius: 2px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px; */
+  /* } */
+/* .title { */
+    /* font-size: 16;
+    font-family: var(--font-mono);
+    font-weight: 600; */
+
+    /* font-size: 32px;
+    color: #1B1F23;
+    padding: 24px;
+    padding: 24px;
+    background-color: var(--background-primary);
+    border-radius: 8px; */
+/* } */
+
+/* .s { */
+    /* box-shadow: #999FA6; */
+   /* background-color: aquamarine; */
+    /* display: flex;
+padding: 8px;
+flex-direction: column;
+align-items: flex-start;
+gap: 4px;
+align-self: stretch; */
+/* } */

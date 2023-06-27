@@ -1,0 +1,18 @@
+.logotext {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1920px;
+  padding: 24px 32px;
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  z-index: 10;
+}

@@ -1,0 +1,41 @@
+:root {
+  --max-width: 1920px;
+  --border-radius: 8px;
+  /* --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace; */
+  --font-mono: Roboto;
+  --border-default: #E1E3E6;
+  --background-primary: #FFF;
+  --text-tertiary: #999FA6;
+  --text-primary: #1B1F23;
+  --gray-1: #333;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  /* max-width: 100vw; */
+  max-width: 1920px;
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F5F5F5;
+}
+
+#myportal {
+  z-index: 10;
+}
+
+#modalcontainer {
+  z-index: 11;
+}
+
+#popupcontainer {
+  z-index: 12;
+}

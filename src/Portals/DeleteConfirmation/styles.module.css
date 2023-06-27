@@ -1,0 +1,90 @@
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0; */
+    /* visibility: hidden; */
+    /* background: var(--color-popup); */
+    background: rgba(0, 0, 0, 0.50);
+    /* transition: all 0.5s linear; */
+}
+
+.dialog {
+    background: var(--white, #FFF);
+    display: inline-flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    gap: 24px;
+}
+
+.firstLine {
+    display: flex;
+    flex-direction: row;
+    width: 296px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.title {
+    color: var(--text-primary, #1B1F23);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.closeBtn {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    border: 0;
+    
+}
+
+.question {
+    color: var(--text-primary, #1B1F23);
+    font-size: 16px;
+    /* font-family: 'Roboto'; */
+    line-height: 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.buttonYes {
+    display: flex;
+    height: 40px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 8px;
+    background: var(--orange, #F50);
+    color: white;
+}
+
+.buttonNo {
+    background: white;
+    color: var(--orange, #F50);
+    display: flex;
+    height: 40px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--orange, #F50);
+}

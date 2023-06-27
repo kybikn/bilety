@@ -1,0 +1,19 @@
+.filmInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: nowrap; */
+    background-color: white;
+    gap: 24px;
+    padding: 24px;
+}
+
+.smallPoster {
+    width: 100px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+.filmInfoContent {
+    width: 100%;
+}

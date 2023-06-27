@@ -1,0 +1,14 @@
+/* .basketIcon {
+    width: 32px;
+    height: 32px;
+} */
+.main {
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    background-color: #F5F5F5;
+    gap: 23px;
+}

@@ -1,0 +1,33 @@
+.button {
+    border-radius: 4px;
+    border: 0;
+    /* background-image: './plus'; */
+    color: white;
+    width: 20px;
+    height: 20px;
+    /* padding: 4px; */
+    background: var(--orange, #F50);
+    border-color: var(--orange, #F50);
+    align-items: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button_disabled {
+    background: var(--orange-disabled, #FFA375);
+}
+
+
+.counter {
+    display: flex;
+    /* padding: 4px; */
+    align-items: flex-start;
+    height: 20px;
+    gap: 8px;
+}
+
+.deleteBtn {
+    cursor: pointer;
+}
